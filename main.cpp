@@ -68,7 +68,7 @@ int main() {
 			}
 			//this is the scissors section
 		}
-		std::cout << "Do you want to play again? (Type Y or N)\n";
+		std::cout << "Do you want to play again? (Type Y or N)";
 		std::cin >> choice;
 	} while (choice == 'Y');
 	std::cout << "*************************************************";
